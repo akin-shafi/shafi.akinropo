@@ -21,6 +21,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 	}
 	return false;
 };
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 var version = getUrlParameter("version");
 
 localStorage.theme = "dark";
